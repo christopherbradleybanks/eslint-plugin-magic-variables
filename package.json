@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-magic-variables",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "prevent variables that are the number representation of a magic number from being used",
   "keywords": [
     "eslint",

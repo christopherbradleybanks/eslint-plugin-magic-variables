@@ -1,0 +1,47 @@
+{
+  "name": "eslint-plugin-magic-variables",
+  "version": "0.0.0",
+  "description": "prevent variables that are the number representation of a magic number from being used",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "magic-numbers",
+    "magic-variables"
+  ],
+  "author": "Chris Banks <github@christopherbradleybanks.com>",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "scripts": {
+    "lint": "npm-run-all \"lint:*\"",
+    "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
+    "lint:js": "eslint .",
+    "test": "mocha tests --recursive",
+    "update:eslint-docs": "eslint-doc-generator"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "number-name": "^0.1.5",
+    "requireindex": "^1.2.0",
+    "words-to-numbers": "^1.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-doc-generator": "^1.0.0",
+    "eslint-plugin-eslint-plugin": "^5.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^10.0.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || ^16.0.0 || >= 18.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christopherbradleybanks/eslint-plugin-magic-variables.git"
+  },
+  "license": "ISC"
+}

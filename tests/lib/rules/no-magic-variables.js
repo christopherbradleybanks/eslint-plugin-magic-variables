@@ -48,6 +48,18 @@ ruleTester.run("no-magic-numbers", rule, {
             messageId: "avoidName"
         }
       ]
-    }
+    },
+    {
+      code: "var NEGATIVE_10 = -10",
+      errors: [{
+        messageId: "avoidName"
+      }]
+    },
+    {
+      code: "var NEG_10 = -10",
+      errors: [{
+        messageId: "avoidName"
+      }]
+    },
   ],
 });

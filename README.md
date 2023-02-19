@@ -1,6 +1,6 @@
 # eslint-plugin-magic-variables
 
-prevent variables that are the number representation of a magic number from being used
+Prevent variable names that are numeric, or are the word form of a number from being used. i.e. FIFTY_TWO is not a valid variable name. 
 
 ## Installation
 

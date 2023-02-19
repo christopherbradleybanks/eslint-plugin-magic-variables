@@ -50,13 +50,13 @@ ruleTester.run("no-magic-numbers", rule, {
       ]
     },
     {
-      code: "var NEGATIVE_10 = -10",
+      code: "var NEGATIVE_10 = -10;",
       errors: [{
         messageId: "avoidName"
       }]
     },
     {
-      code: "var NEG_10 = -10",
+      code: "var NEG_10 = -10;",
       errors: [{
         messageId: "avoidName"
       }]

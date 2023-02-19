@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-magic-variables",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Prevent variable names that are numeric, or are the word form of a number from being used. i.e. FIFTY_TWO is not a valid variable name.",
   "keywords": [
     "eslint",
